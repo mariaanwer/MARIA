@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #696be6;
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px; 
+  }
+  
+  .nav-list li a {
+    color: white; 
+    text-decoration: none;
+  }
+  
+  .nav-list li a:hover {
+    color: lightgray; 
+  }
+  
+  
+  .logo img {
+    height: 30px; 
+    width: 100%; 
+  }
+ 
+.picture {
+    background-color: rgb(180, 205, 243); 
+    text-align: center; 
+    padding: 20px; 
+  }
+  
+  .any-item img {
+    max-width: 100%; 
+    height: auto; 
+  }
+/* Flexbox CSS for aligning text in a straight line */
+.content .container {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #a4a5dd;}
+
+.btn-primary {
+    background-color: #007bff; /* Blue color for primary buttons */
+    border-color: #007bff; /* Border color for primary buttons */
+    color: #fff; /* Text color for primary buttons */
+}
+
+/* Additional styling for button hover and active states can be added here */
+
+  
+  .content .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centers items horizontally */
+  }
+  
+  .col-md-4 {
+    text-align: center; /* Aligns text in the center of each column */
+    margin: 10px; /* Adds some margin between columns */
+  }
+  .content2 .container2 {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #a4a5dd;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue color for primary buttons */
+    border-color: #007bff; /* Border color for primary buttons */
+    color: #fff; /* Text color for primary buttons */
+}
+
+/* Additional styling for button hover and active states can be added here */
+
+  
+  .content2 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centers items horizontally */
+  }
+  
+  .col-md-3 {
+    text-align: center; /* Aligns text in the center of each column */
+    margin: 10px; /* Adds some margin between columns */
+  }
+
+
+
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
